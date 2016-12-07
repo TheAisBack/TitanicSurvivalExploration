@@ -13343,7 +13343,14 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: <em>Well, since we just came from a big election in November. Supervised learning could be applied. Getting the best accuracy of who will become President. If Trump won Ohio, Michigan, Pennsylvania and Wisconsin, then he will become President and vice versa with Hilary.</em></p>
+<p><strong>Answer</strong>: <em>Well, since we just came from a big election in November. Supervised learning could be applied to this event. Supervised Learning can be used in getting the best accuracy of who will become President of the United States. So for a candidate to win the election they need to win the Electoral College (winning state by state). for Obvious reasons winning California, Texas, New York and Florida will boost that candidates chances, but since these states are predetermined to win by particular parties (expect Florida) candidates look at other states called the swing states to win the election. The decision tree would state as follows...
+    if candidate["Ohio"] == "Trump": 
+       if candidate["Michigan"] == "Trump":
+           if candidate["Pennsylvania"] == "Trump":
+               if candidate["Wisconsin"] == "Trump":
+                   election.append("Trump Wins!")
+    else: 
+        if candidate["Michigan"] == "Trump": , etc. Winning these states will show that the candidate has a stronger chance in winning.</em></p>
 
 </div>
 </div>
